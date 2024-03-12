@@ -22,7 +22,7 @@ Exchange rates are fetched from an external API and logged in a PostgreSQL datab
     - Open `src/main/resources/application.properties` and configure the external API URL.
 
 ## Running the Application
-
+- Clone the repository: `git clone https://github.com/vashkel/spribeapp.git`
 - Build and run the application using Gradle. `gradlew build`.
 - Build the Docker image running `docker build -t spribe .` command in the root directory of the project
 from the Terminal.
